@@ -1,0 +1,620 @@
+{
+	"version": 4,
+	"type": "page",
+	"page": {
+		"name": "SCORE",
+		"controls": {
+			"0": {
+				"0": {
+					"type": "pageup"
+				},
+				"1": {
+					"type": "button",
+					"style": {
+						"text": "SCORE BUG",
+						"textExpression": false,
+						"size": "14",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "-LqMi6GsOZXc1lc7G_5el",
+										"action": "updateCheckboxNode",
+										"instance": "TMOUOg3ya__7KlyDynrPA",
+										"options": {
+											"controlnode": "SCORE BUG PRO&!&!&ShowOverlay",
+											"value": true
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						},
+						"1": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "EbNvwe2cTSWj67e-_tz27",
+										"action": "updateCheckboxNode",
+										"instance": "TMOUOg3ya__7KlyDynrPA",
+										"options": {
+											"controlnode": "SCORE BUG PRO&!&!&ShowOverlay",
+											"value": false
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"2": {
+					"type": "button",
+					"style": {
+						"text": "AWAY $(internal:custom_HOME_SCORE)",
+						"textExpression": false,
+						"size": "18",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "Bu6IKqaP02HZos3mqWLU0",
+										"action": "updateControlNode",
+										"instance": "TMOUOg3ya__7KlyDynrPA",
+										"options": {
+											"controlnode": "SCORE BUG PRO&!&!&GoalsHome",
+											"value": "$(internal:custom_HOME_SCORE)"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"3": {
+					"type": "button",
+					"style": {
+						"text": "HOME $(internal:custom_AWAY_SCORE)",
+						"textExpression": false,
+						"size": "18",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "PVu2JcA0BBe3ELpci7c1W",
+										"action": "updateControlNode",
+										"instance": "TMOUOg3ya__7KlyDynrPA",
+										"options": {
+											"controlnode": "SCORE BUG PRO&!&!&GoalsAway",
+											"value": "$(internal:custom_AWAY_SCORE)"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"4": {
+					"type": "button",
+					"style": {
+						"text": "START CLOCK",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "xOdCdWc_6OYCEIBELpWIl",
+										"action": "updateTimerNode",
+										"instance": "TMOUOg3ya__7KlyDynrPA",
+										"options": {
+											"controlnode": "SCORE BUG PRO&!&!&MatchTime",
+											"value": "play"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				}
+			},
+			"1": {
+				"0": {
+					"type": "pagenum"
+				},
+				"1": {
+					"type": "button",
+					"style": {
+						"text": "SHOW CLOCK",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "hWuc77uarP-P9F20K1Esk",
+										"action": "updateSelectionNode",
+										"instance": "TMOUOg3ya__7KlyDynrPA",
+										"options": {
+											"controlnode": "SCORE BUG PRO&!&!&DisplayMatchTime",
+											"SCORE BUG PRO&!&!&DropdownType": "NoIcon",
+											"SCORE BUG PRO&!&!&DisplayMatchTime": "clock",
+											"Weather Bug&!&!&Standard": "imperial"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"2": {
+					"type": "button",
+					"style": {
+						"text": "AWAY +1",
+						"textExpression": false,
+						"size": "18",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "Nr1wo_GvBqIeeeot88rGA",
+										"action": "custom_variable_set_expression",
+										"instance": "internal",
+										"options": {
+											"name": "HOME_SCORE",
+											"expression": "$(internal:custom_HOME_SCORE)+1"
+										},
+										"delay": 0
+									},
+									{
+										"id": "h1Loa57mhokde3xujrHPg",
+										"action": "button_pressrelease",
+										"instance": "internal",
+										"options": {
+											"location_target": "text",
+											"location_text": "2/0/2",
+											"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+											"force": true
+										},
+										"delay": 50
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"3": {
+					"type": "button",
+					"style": {
+						"text": "HOME +1",
+						"textExpression": false,
+						"size": "18",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "6ongwMeN52eN7vg1L65Fs",
+										"action": "custom_variable_set_expression",
+										"instance": "internal",
+										"options": {
+											"name": "AWAY_SCORE",
+											"expression": "$(internal:custom_AWAY_SCORE)+1"
+										},
+										"delay": 0
+									},
+									{
+										"id": "Xi7FKybeO4VBVWgUt9f1G",
+										"action": "button_pressrelease",
+										"instance": "internal",
+										"options": {
+											"location_target": "text",
+											"location_text": "2/0/3",
+											"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+											"force": true
+										},
+										"delay": 50
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"4": {
+					"type": "button",
+					"style": {
+						"text": "PAUSE CLOCK",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "mfgV441PS6chLNRb0mTV5",
+										"action": "updateTimerNode",
+										"instance": "TMOUOg3ya__7KlyDynrPA",
+										"options": {
+											"controlnode": "SCORE BUG PRO&!&!&MatchTime",
+											"value": "pause"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				}
+			},
+			"2": {
+				"0": {
+					"type": "pagedown"
+				},
+				"1": {
+					"type": "button",
+					"style": {
+						"text": "SHOW PER",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "jibS2JG0NQuMGjd-7qVXf",
+										"action": "updateSelectionNode",
+										"instance": "TMOUOg3ya__7KlyDynrPA",
+										"options": {
+											"controlnode": "SCORE BUG PRO&!&!&DisplayMatchTime",
+											"SCORE BUG PRO&!&!&DropdownType": "NoIcon",
+											"SCORE BUG PRO&!&!&DisplayMatchTime": "periodNames",
+											"Weather Bug&!&!&Standard": "imperial"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"2": {
+					"type": "button",
+					"style": {
+						"text": "AWAY   -1",
+						"textExpression": false,
+						"size": "18",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "ywh9fyPTsTE1E3aS9x4PN",
+										"action": "custom_variable_set_expression",
+										"instance": "internal",
+										"options": {
+											"name": "HOME_SCORE",
+											"expression": "$(internal:custom_HOME_SCORE)-1"
+										},
+										"delay": 0
+									},
+									{
+										"id": "UsK0bPpiMFYUBB7A1vwxu",
+										"action": "button_pressrelease",
+										"instance": "internal",
+										"options": {
+											"location_target": "text",
+											"location_text": "2/0/2",
+											"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+											"force": true
+										},
+										"delay": 50
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"3": {
+					"type": "button",
+					"style": {
+						"text": "HOME  -1",
+						"textExpression": false,
+						"size": "18",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "DRxn13vXwzk9JraG7EMWN",
+										"action": "custom_variable_set_expression",
+										"instance": "internal",
+										"options": {
+											"name": "AWAY_SCORE",
+											"expression": "$(internal:custom_AWAY_SCORE)-1"
+										},
+										"delay": 0
+									},
+									{
+										"id": "t7g9vCuFdKTWZa_mgHx0q",
+										"action": "button_pressrelease",
+										"instance": "internal",
+										"options": {
+											"location_target": "text",
+											"location_text": "2/0/3",
+											"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+											"force": true
+										},
+										"delay": 50
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"4": {
+					"type": "button",
+					"style": {
+						"text": "RESET CLOCK",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "rptd1cVLc1QG-WpYI1zMs",
+										"action": "updateTimerNode",
+										"instance": "TMOUOg3ya__7KlyDynrPA",
+										"options": {
+											"controlnode": "SCORE BUG PRO&!&!&MatchTime",
+											"value": "reset"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				}
+			}
+		},
+		"gridSize": {
+			"minColumn": 0,
+			"maxColumn": 7,
+			"minRow": 0,
+			"maxRow": 3
+		}
+	},
+	"instances": {
+		"TMOUOg3ya__7KlyDynrPA": {
+			"instance_type": "singularlive-studio",
+			"sortOrder": 5,
+			"label": "singular",
+			"isFirstInit": false,
+			"config": {
+				"apiurl": "7JUC388D0WRRcPTXbuOYtH"
+			},
+			"lastUpgradeIndex": -1,
+			"enabled": true
+		}
+	},
+	"oldPageNumber": 2
+}

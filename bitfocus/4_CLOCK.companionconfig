@@ -1,0 +1,386 @@
+{
+	"version": 4,
+	"type": "page",
+	"page": {
+		"name": "CLOCK",
+		"controls": {
+			"0": {
+				"0": {
+					"type": "pageup"
+				},
+				"1": {
+					"type": "button",
+					"style": {
+						"text": "START CLOCK",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "_1bcoH2HhZSw4d8G7V1im",
+										"action": "updateTimerNode",
+										"instance": "TMOUOg3ya__7KlyDynrPA",
+										"options": {
+											"controlnode": "SCORE BUG PRO&!&!&MatchTime",
+											"value": "play"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"2": {
+					"type": "button",
+					"style": {
+						"text": "PAUSE CLOCK",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "Ddr6sGicZTx4NuGOPMaRP",
+										"action": "updateTimerNode",
+										"instance": "TMOUOg3ya__7KlyDynrPA",
+										"options": {
+											"controlnode": "SCORE BUG PRO&!&!&MatchTime",
+											"value": "pause"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"3": {
+					"type": "button",
+					"style": {
+						"text": "RESET CLOCK",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "TQ5DSbjPffrczGlbyvf2k",
+										"action": "updateTimerNode",
+										"instance": "TMOUOg3ya__7KlyDynrPA",
+										"options": {
+											"controlnode": "SCORE BUG PRO&!&!&MatchTime",
+											"value": "reset"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				}
+			},
+			"1": {
+				"0": {
+					"type": "pagenum"
+				},
+				"1": {
+					"type": "button",
+					"style": {
+						"text": "SHOW CLOCK",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "bW0m5GYV1KpIPErQRpdrJ",
+										"action": "updateSelectionNode",
+										"instance": "TMOUOg3ya__7KlyDynrPA",
+										"options": {
+											"controlnode": "SCORE BUG PRO&!&!&DisplayMatchTime",
+											"SCORE BUG PRO&!&!&DropdownType": "NoIcon",
+											"SCORE BUG PRO&!&!&DisplayMatchTime": "clock",
+											"Weather Bug&!&!&Standard": "imperial"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"2": {
+					"type": "button",
+					"style": {
+						"text": "SHOW PER",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "7sJ91CM-T0a3eGTgEDijO",
+										"action": "updateSelectionNode",
+										"instance": "TMOUOg3ya__7KlyDynrPA",
+										"options": {
+											"controlnode": "SCORE BUG PRO&!&!&DisplayMatchTime",
+											"SCORE BUG PRO&!&!&DropdownType": "NoIcon",
+											"SCORE BUG PRO&!&!&DisplayMatchTime": "periodNames",
+											"Weather Bug&!&!&Standard": "imperial"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"3": {
+					"type": "button",
+					"style": {
+						"text": "HIDE",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "LTUUmDJClwjJcICNZuecP",
+										"action": "updateSelectionNode",
+										"instance": "TMOUOg3ya__7KlyDynrPA",
+										"options": {
+											"controlnode": "SCORE BUG PRO&!&!&DisplayMatchTime",
+											"SCORE BUG PRO&!&!&DropdownType": "NoIcon",
+											"SCORE BUG PRO&!&!&DisplayMatchTime": "hidden",
+											"Weather Bug&!&!&Standard": "imperial"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				}
+			},
+			"2": {
+				"0": {
+					"type": "pagedown"
+				},
+				"1": {
+					"type": "button",
+					"style": {
+						"text": "1st Half",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "AGIqf7i1LxzMzVQxY47-R",
+										"action": "updateControlNode",
+										"instance": "TMOUOg3ya__7KlyDynrPA",
+										"options": {
+											"controlnode": "SCORE BUG PRO&!&!&Period",
+											"value": "p1"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				},
+				"2": {
+					"type": "button",
+					"style": {
+						"text": "2nd Half",
+						"textExpression": false,
+						"size": "auto",
+						"png64": null,
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "m0Fg1JMlhvvVjDyNCzibe",
+										"action": "updateControlNode",
+										"instance": "TMOUOg3ya__7KlyDynrPA",
+										"options": {
+											"controlnode": "SCORE BUG PRO&!&!&Period",
+											"value": "p2"
+										},
+										"delay": 0
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				}
+			}
+		},
+		"gridSize": {
+			"minColumn": 0,
+			"maxColumn": 7,
+			"minRow": 0,
+			"maxRow": 3
+		}
+	},
+	"instances": {
+		"TMOUOg3ya__7KlyDynrPA": {
+			"instance_type": "singularlive-studio",
+			"sortOrder": 5,
+			"label": "singular",
+			"isFirstInit": false,
+			"config": {
+				"apiurl": "7JUC388D0WRRcPTXbuOYtH"
+			},
+			"lastUpgradeIndex": -1,
+			"enabled": true
+		}
+	},
+	"oldPageNumber": 5
+}
